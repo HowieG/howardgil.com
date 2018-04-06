@@ -1,0 +1,40 @@
+.navbar {
+	padding: 0 1rem;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: .25rem;
+    padding-left: .25rem;
+}
+
+.myIcons {
+    padding: .5rem .75rem 0rem .75rem;
+    transition: transform .1s;
+}
+
+.myIcons:first-child {
+    border-right-style: solid;
+    border-right-color: lightgray;
+    border-right-width: 2px;
+}
+
+.myIcons img:hover {
+    -ms-transform: scale(1.17); /* IE 9 */
+    -webkit-transform: scale(1.17); /* Safari 3-8 */
+    transform: scale(1.17);
+    margin-top: -.25rem;
+    /*background-color: #9CA0B5;*/
+    /*opacity: 0.6;*/
+}
+
+.nav-link:hover {
+    opacity: 0.5;
+}
+
+.resume img {
+    height: 28px;
+}
+
+
+
+/*#9a9da0*/

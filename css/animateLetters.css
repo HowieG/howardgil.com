@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+body {
+	font:100%/130% 'Oswald', sans-serif;
+}
+
+#letters {
+	margin-left: 10px;
+}
+
+#myInfo {
+	margin-left: 10px;
+	color: white;
+}
+
+span {
+	margin-top: 2.4px;
+	margin-bottom: 2.4px;
+	opacity: 0;
+	backface-visibility: visible;
+	transition-property: all;
+	transition-duration: 660ms;
+	transition-timing-function: ease-in-out;
+	transform-origin: 50% 50% 0px;
+	transform: perspective(1050px) rotateY(0deg) scale(0.5);
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 660ms;
+	-webkit-transition-timing-function: ease-in-out;
+	-webkit-transform-origin: 50% 50% 0px;
+	-webkit-transform: perspective(1050px) rotateY(0deg) scale(0.5);
+	display: inline-block;
+}
